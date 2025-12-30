@@ -1,2 +1,14 @@
 test_logintest1.py
 test_newLogin.py
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# PyCharm
+.idea/
+
+# Test downloads
+downloads/

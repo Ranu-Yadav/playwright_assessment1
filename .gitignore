@@ -1,5 +1,14 @@
 test_logintest1.py
 test_newLogin.py
+
+# Allure reports
+allure-results/
+allure-report/
+allure-result
+
+# HTML reports
+report.html
+
 # Python
 __pycache__/
 *.pyc
@@ -12,3 +21,6 @@ __pycache__/
 
 # Test downloads
 downloads/
+
+# Playwright
+playwright/.cache/

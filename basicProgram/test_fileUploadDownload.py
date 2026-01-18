@@ -14,7 +14,7 @@ def test_fileUploadDownload(page:Page):
         page.locator("#downloadButton").click()
 
     download = download_info.value
-    download_path= "downloads/test.pdf"
+    download_path= "../downloads/test.pdf"
     download.save_as(download_path)
 
     assert os.path.exists(download_path)

@@ -3,8 +3,8 @@ test_newLogin.py
 
 # Allure reports
 allure-results/
-allure-report/
-allure-result
+oldAssignment/allure-report/
+oldAssignment/allure-result
 
 # HTML reports
 report.html
@@ -20,7 +20,7 @@ __pycache__/
 .idea/
 
 # Test downloads
-downloads/
+oldAssignment/downloads/
 
 # Playwright
 playwright/.cache/

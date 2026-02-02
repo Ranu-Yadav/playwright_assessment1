@@ -8,8 +8,8 @@ Scenario Outline: test login with valid username and password
     Then user redirected to dashboard page
 
     Examples:
-    |username | password|
-    |Admin    | admin123|
+    |username | password  |
+    |jobin    | Password@1|
 
 Scenario Outline: test login with invalid username and valid password
 

@@ -1,7 +1,7 @@
 import pytest
 
 
-@pytest.mark.smoke
+#@pytest.mark.smoke
 @pytest.mark.skip(reason="not required now")
 def test_smoke():
     print("smoke test")
